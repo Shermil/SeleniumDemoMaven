@@ -12,7 +12,7 @@ public class Utilities {
 		String settingsDirectory = baseDirectory + "\\src\\test\\java\\selenium\\core\\settings\\config.properties";
 		
 		FileInputStream stream = new FileInputStream(settingsDirectory);
-		configurations.load(stream);
+		configurations.load(stream);// commit
 		
 		return configurations;
 	}
